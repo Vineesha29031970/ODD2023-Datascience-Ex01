@@ -20,27 +20,24 @@ Save the Clean data to the file
 
 # CODE and OUTPUT
 import pandas as pd
-
-
 df=pd.read_csv("/content/SAMPLEDS - Sheet1.csv")
-
 df
 
 
 <img width="407" alt="exp1 ds" src="https://github.com/Vineesha29031970/ODD2023-Datascience-Ex01/assets/133136880/cb3f4d31-3221-4bcc-b4e3-3ff3c8f38748">
 
 
-
 df.head
 
-<img width="665" alt="image" src="https://github.com/Vineesha29031970/ODD2023-Datascience-Ex01/assets/133136880/1a0d4049-5868-43f0-97e1-5ea137e3c9ba">
 
+<img width="665" alt="image" src="https://github.com/Vineesha29031970/ODD2023-Datascience-Ex01/assets/133136880/1a0d4049-5868-43f0-97e1-5ea137e3c9ba">
 
 
 <img width="165" alt="image" src="https://github.com/Vineesha29031970/ODD2023-Datascience-Ex01/assets/133136880/07edb2be-1eea-41be-a480-2914d61516f3">
 
 
 df.tail
+
 
 <img width="821" alt="image" src="https://github.com/Vineesha29031970/ODD2023-Datascience-Ex01/assets/133136880/c8809bd2-b919-41eb-9542-ed4855582e72">
 
@@ -50,10 +47,12 @@ df.tail
 
 df.shape
 
+
 <img width="88" alt="image" src="https://github.com/Vineesha29031970/ODD2023-Datascience-Ex01/assets/133136880/ab9e6a2b-c5c1-427c-a3c1-d563b20fe96c">
 
 
 df.describe
+
 
 <img width="673" alt="image" src="https://github.com/Vineesha29031970/ODD2023-Datascience-Ex01/assets/133136880/a277a1ed-cd27-43b1-9420-bb8f777d37f9">
 
@@ -62,6 +61,7 @@ df.describe
 
 
 df.info
+
 
 <img width="683" alt="image" src="https://github.com/Vineesha29031970/ODD2023-Datascience-Ex01/assets/133136880/7ab9c669-961d-4aba-99d8-e2ce3aed82fa">
 
