@@ -180,6 +180,7 @@ df
 
 
 mn=df.TOTAL.median()
+
 mn
 
 
@@ -187,6 +188,7 @@ mn
 
 
 mn=df.TOTAL.mode()
+
 mn
 
 
@@ -222,7 +224,9 @@ df
 
 
 for x in df.index:
+
   if df.loc[x,"AVG"]>100:
+  
     df.drop(x,inplace=True)
 
 df
