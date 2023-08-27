@@ -25,23 +25,36 @@ import pandas as pd
 df=pd.read_csv("/content/SAMPLEDS - Sheet1.csv")
 
 df
+
+
 <img width="407" alt="exp1 ds" src="https://github.com/Vineesha29031970/ODD2023-Datascience-Ex01/assets/133136880/cb3f4d31-3221-4bcc-b4e3-3ff3c8f38748">
 
 
+
 df.head
+
 <img width="665" alt="image" src="https://github.com/Vineesha29031970/ODD2023-Datascience-Ex01/assets/133136880/1a0d4049-5868-43f0-97e1-5ea137e3c9ba">
+
+
 
 <img width="165" alt="image" src="https://github.com/Vineesha29031970/ODD2023-Datascience-Ex01/assets/133136880/07edb2be-1eea-41be-a480-2914d61516f3">
 
+
 df.tail
+
 <img width="821" alt="image" src="https://github.com/Vineesha29031970/ODD2023-Datascience-Ex01/assets/133136880/c8809bd2-b919-41eb-9542-ed4855582e72">
+
 
 <img width="169" alt="image" src="https://github.com/Vineesha29031970/ODD2023-Datascience-Ex01/assets/133136880/7c84c010-dfe2-414c-9fed-d359584ad63e">
 
+
 df.shape
+
 <img width="88" alt="image" src="https://github.com/Vineesha29031970/ODD2023-Datascience-Ex01/assets/133136880/ab9e6a2b-c5c1-427c-a3c1-d563b20fe96c">
 
+
 df.describe
+
 <img width="673" alt="image" src="https://github.com/Vineesha29031970/ODD2023-Datascience-Ex01/assets/133136880/a277a1ed-cd27-43b1-9420-bb8f777d37f9">
 
 
@@ -55,8 +68,8 @@ df.info
 
 <img width="164" alt="image" src="https://github.com/Vineesha29031970/ODD2023-Datascience-Ex01/assets/133136880/fd590d18-137f-4794-a365-46aac0991890">
 
-df.isnull().sum()
 
+df.isnull().sum()
 
 <img width="140" alt="image" src="https://github.com/Vineesha29031970/ODD2023-Datascience-Ex01/assets/133136880/1ae4af0b-b4cb-47c3-b1ee-8fbb021bc81f">
 
@@ -83,12 +96,14 @@ df.dropna(how='all').shape
 
 df
 
+
 <img width="412" alt="image" src="https://github.com/Vineesha29031970/ODD2023-Datascience-Ex01/assets/133136880/2dc6de73-860c-4ff2-9987-fe483e699ae1">
 
 
 tot=df.dropna(subset=['TOTAL'],how='any')
 
 tot
+
 
 <img width="428" alt="image" src="https://github.com/Vineesha29031970/ODD2023-Datascience-Ex01/assets/133136880/7eb44b4c-959d-4c0e-80e8-6ab6f865b71b">
 
@@ -109,6 +124,7 @@ df.fillna(0)
 
 
 df
+
 
 <img width="430" alt="image" src="https://github.com/Vineesha29031970/ODD2023-Datascience-Ex01/assets/133136880/eef65866-a09c-4f9d-a2fe-4fcab70cd11d">
 
@@ -134,6 +150,7 @@ df.interpolate()
 mn=df.TOTAL.mean()
 
 mn
+
 
 <img width="42" alt="image" src="https://github.com/Vineesha29031970/ODD2023-Datascience-Ex01/assets/133136880/594b851a-068f-4753-a9c1-94611a92ea57">
 
@@ -171,6 +188,7 @@ mn
 
 mn=df.TOTAL.mode()
 mn
+
 
 <img width="179" alt="image" src="https://github.com/Vineesha29031970/ODD2023-Datascience-Ex01/assets/133136880/d17ee05d-77e7-4cf7-9695-d366326b213b">
 
