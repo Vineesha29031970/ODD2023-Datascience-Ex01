@@ -20,7 +20,9 @@ Save the Clean data to the file
 
 # CODE and OUTPUT
 import pandas as pd
+
 df=pd.read_csv("/content/SAMPLEDS - Sheet1.csv")
+
 df
 
 
