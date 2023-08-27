@@ -231,9 +231,9 @@ for x in df.index:
 
   if df.loc[x,"AVG"]>100:
   
-    df.drop(x,inplace=True)
+  df.drop(x,inplace=True)
 
-df
+  df
 
 
 <img width="503" alt="image" src="https://github.com/Vineesha29031970/ODD2023-Datascience-Ex01/assets/133136880/85a7d5e8-22dd-446c-8545-275efd247c54">
